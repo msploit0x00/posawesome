@@ -1,0 +1,32 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-24 09:52:16.256066",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "note"
+ ],
+ "fields": [
+  {
+   "fieldname": "note",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Note",
+   "options": "george1"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-03-25 13:09:39.201866",
+ "modified_by": "Administrator",
+ "module": "POSAwesome",
+ "name": "Notes",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
