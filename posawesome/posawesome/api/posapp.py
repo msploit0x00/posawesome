@@ -592,7 +592,7 @@ def update_invoice(data):
     count = 0
     invoices = frappe.get_list(
         "Sales Invoice",
-        filters={"posting_date": invoice_doc.posting_date},
+        filters={"posting_date": invoice_doc.posting_date,'pos_profile': data.get("pos_profile")},
         fields=["name"],
         limit_start=0,
         limit_page_length=5000,
